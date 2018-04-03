@@ -11,8 +11,6 @@ spl_autoload_register(function($className){
         echo "Erro ao incluir o arquivo {$fileName}.php";
     endif;
 
-    echo $fileName;
-
 });
 
 ?>
